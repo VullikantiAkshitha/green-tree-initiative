@@ -1,0 +1,166 @@
+* global section*/ * {
+    line-height: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: #fff;
+    color: #354463;
+    font-family: Helvetica;
+    line-height: 20px;
+}
+
+/* header section */
+header {
+    background-color: #fff;
+}
+
+.navbar p {
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* main section */
+.main {
+    background: transparent url("../images/donation/annie-spratt-427340-unsplash@2x.png") no-repeat;
+    height: fit-content;
+}
+
+.message {
+    font-family: Flood Std;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+.your-information,
+.payment-process,
+.msg,
+form a,
+.input-field {
+    color: #ffffff;
+}
+
+.your-information p,
+.payment-process p {
+    font-size: 1.45rem;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.your-information,
+.payment-process {
+    font-size: 0.8rem;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 2px solid #C1F7D5;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.msg {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+form button {
+    background-color: #C1F7D5;
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.15rem;
+    border-radius: 100px;
+}
+
+option {
+    background-color: #354463;
+}
+
+
+/* footer section */
+.footer .heading {
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.15rem;
+
+}
+
+.contact-us .main-text {
+    color: #354463;
+    font-weight: bold;
+}
+
+.follow-us .main-text {
+
+    color: #354463;
+    font-weight: bold;
+}
+
+.learn-more .main-text {
+
+    color: #354463;
+    font-weight: bold;
+}
+
+.footer .logo-text {
+    font-family: Flood Std;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+
+}
+
+/* -----------------------------media queries for tablets------------ */
+@media(min-width : 600px) {
+
+    /* header for tablets */
+    .navbar p {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+    }
+
+    /* main section for tablets */
+
+    .msg {
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+
+    .your-information,
+    .payment-process {
+        font-size: 1rem;
+    }
+
+    /* footer section for the tablets */
+    .footer .heading {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+    }
+
+    .message {
+        font-size: 2.75rem;
+        line-height: 2.9rem;
+    }
+
+    .input-field {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+/* -----------------------------media queries for laptops------------ */
+
+@media(min-width : 1200px) {
+    /* main section for laptops */
+
+    .message {
+        font-size: 3.9rem;
+        line-height: 4.1rem;
+    }
+}

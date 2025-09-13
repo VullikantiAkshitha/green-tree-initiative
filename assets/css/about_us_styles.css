@@ -1,0 +1,370 @@
+/* global section*/
+* {
+    line-height: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: #fff;
+    color: #354463;
+    font-family: Helvetica;
+    line-height: 20px;
+}
+
+.dark-box {
+    background-color: #354463;
+    color: white;
+}
+
+.white-box {
+    background-color: #ffffff;
+    color: #354463;
+}
+
+/* header section */
+header {
+    background-color: #fff;
+}
+
+.navbar p {
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #354463;
+    line-height: 1.5rem;
+}
+
+.btn a button {
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    border: 0;
+}
+
+/* banner section */
+
+.banner {
+    background: transparent url("../images/about-us/annie-spratt-427339-unsplash@2x.png") no-repeat;
+}
+
+.banner-message {
+    color: #354463;
+    background-color: #fff;
+}
+
+.banner-message p {
+    font-size: 1.45rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* what we do section */
+.what-we-do {
+    background-color: #354463;
+}
+
+.what-we-do-msg p {
+    color: #ffffff;
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.what-we-do-contents {
+    color: #fff;
+}
+
+.what-we-do-contents .content .main-text {
+    font-size: 1.1rem;
+    line-height: 1.35rem;
+    font-weight: bolder;
+}
+
+.what-we-do-contents .content .sub-text {
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+}
+
+/* team section */
+.team-intro .heading {
+    font-size: 1.45rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-intro .sub-text {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.person-box {
+    color: #ffffff;
+    background-color: #354463;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+/* our impact section */
+.our-impact {
+    background: transparent url("../images/about-us/Impact\ Background@2x.png") no-repeat;
+    background-color: rgba(53, 68, 99, 0.8);
+
+
+}
+
+.our-impact-heading p {
+    color: #ffffff;
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.impact .num {
+    color: #ffffff;
+    font-family: Flood Std;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+}
+
+.impact .text {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+}
+
+/* lets take action section */
+.take-action {
+    background-color: #354463;
+}
+
+.take-action-heading {
+    color: #ffffff;
+    font-family: Flood Std;
+    font-size: 2.7rem;
+    line-height: 2.85rem;
+    text-align: center;
+}
+
+.take-action-card {
+    background-color: #ffffff;
+}
+
+.card-main-text {
+    font-size: 1.45rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-sub-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.take-action-card .dark-box {
+    background-color: #ffffff;
+    color: #354463;
+    left: 40%;
+}
+
+.take-action-card .readmore {
+    font-size: 1rem;
+    color: #354463;
+    font-weight: bold;
+    background-color: #C1F7D5;
+    border: 0;
+    border-radius: 100px;
+}
+
+/* subscribe section */
+.subscribe {
+    background-color: #C1F7D5;
+}
+
+.subscribe .text {
+    color: #354463;
+    font-size: 1.25;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.email-input {
+    text-align: center;
+    border: 0;
+    border-radius: 100px;
+}
+
+.subscribe-button {
+    border-radius: 100px;
+    border: none;
+    background-color: #354463;
+    color: #C1F7D5;
+}
+
+/* footer section */
+.footer .heading {
+    color: #354463;
+    font-weight: bold;
+    font-size: 1.15rem;
+
+}
+
+.contact-us .main-text {
+    color: #354463;
+    font-weight: bold;
+}
+
+.follow-us .main-text {
+
+    color: #354463;
+    font-weight: bold;
+}
+
+.learn-more .main-text {
+
+    color: #354463;
+    font-weight: bold;
+}
+
+.footer .logo-text {
+    font-family: Flood Std;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+
+}
+
+/* -----------------------------media queries for tablets------------ */
+@media(min-width : 600px) {
+
+    /* header for tablets */
+    .navbar p {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+    }
+
+    .btn a button {
+        font-size: 1.1rem;
+    }
+
+    /* banner section for tablets*/
+    .banner-message p {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    /* team section for tablets*/
+    .team-intro .heading {
+        text-align: center;
+        font-size: 2.25rem;
+        line-height: 2.85rem;
+    }
+
+    .person-box {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .impact .text,
+    .num {
+        color: #ffffff;
+
+    }
+
+    /* our impact for tablets */
+    .our-impact-heading p {
+        font-size: 2.25rem;
+        line-height: 2.9rem;
+    }
+
+    .impact .num {
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+
+    .impact .text {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+    }
+
+    /* footer section for the tablets */
+    .footer .heading {
+        font-size: 1.45rem;
+        line-height: 1.75rem;
+    }
+
+
+}
+
+/* -----------------------------media queries for laptops------------ */
+
+@media(min-width : 1200px) {
+    .what-we-do-contents {
+        color: #fff;
+    }
+
+    .what-we-do-msg p {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    .what-we-do-contents .content .main-text {
+        font-size: 1.8rem;
+        line-height: 2.75rem;
+        font-weight: bolder;
+    }
+
+    .what-we-do-contents .content .sub-text {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    /* team section for laptops */
+    .team-intro .heading {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    .team-intro .sub-text {
+        font-size: 1.5rem;
+        line-height: 1.85rem;
+        text-align: left;
+    }
+
+    /* our impact for laptops */
+
+    .impact .text {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+
+    /* subscribe section for laptops */
+
+    .subscribe .text {
+        font-size: 1.75rem;
+
+    }
+
+
+
+
+}

@@ -1,0 +1,306 @@
+/* global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 4% 10%;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar p {
+    align-self: center;
+}
+
+
+/* main section */
+.main {
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.message {
+    padding: 40% 5% 0% 5%;
+
+}
+
+/* form */
+form {
+    background-color: #354463;
+    padding: 5%;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.end-process {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-information,
+.payment-process,
+.your-information p,
+.payment-process p,
+.msg,
+form a,
+.credit {
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.your-information,
+.payment-process {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.firstname,
+.lastname,
+.exp-date,
+.security {
+    width: 45%;
+}
+
+.street,
+.email {
+    width: 100%;
+}
+
+.city {
+    width: 35%;
+}
+
+.state {
+    width: 20%;
+}
+
+.zipcode {
+    width: 35%;
+}
+
+.exp-date input {
+    width: 45%;
+}
+
+form button {
+    padding: 4% 5%;
+}
+
+form a {
+    margin-top: 4%;
+}
+
+form {
+    margin-bottom: 1%;
+}
+
+.names,
+.address,
+.credit-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+/* footer section */
+
+.footer {
+    padding: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.footer .heading {
+    padding-right: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contact-us {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.follow-us {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.learn-more {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.contact-us .main-text {
+    margin-top: 10px;
+
+}
+
+.follow-us .main-text {
+    margin-top: 10px;
+
+}
+
+.learn-more .main-text {
+    margin-top: 10px;
+
+}
+
+.footer .logo-text {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+/* ---------------------------------------media queries for tablets ----------------------*/
+@media(min-width : 600px) {
+    /* header for tablets */
+
+    header {
+        padding-top: 2%;
+    }
+
+    .navbar p {
+        padding-bottom: 1%;
+    }
+
+
+    /* main section for tablets */
+
+    .end-process {
+        flex-direction: row-reverse;
+    }
+
+    form button {
+        width: 80%;
+        padding: 0% 5%;
+    }
+
+    .message {
+        padding-top: 10%;
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .contact-us {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+    }
+
+    .follow-us {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .learn-more {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .footer .logo-text {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+}
+
+/* ---------------------------------------media queries for laptops ----------------------*/
+@media(min-width : 1200px) {
+
+    /* header section  for laptops */
+    header {
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+
+    /* main section for laptops */
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .main {
+        padding: 5%;
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 9%;
+        row-gap: 0;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        grid-row: none;
+        grid-column: 1/2;
+    }
+
+    .contact-us {
+        grid-row: none;
+        grid-column: 2/3;
+
+    }
+
+    .learn-more {
+        grid-row: none;
+        grid-column: 3/4;
+    }
+
+    .follow-us {
+        grid-row: none;
+        grid-column: 4/5;
+
+    }
+
+    .footer .logo-text {
+        grid-row: none;
+        grid-column: 5/6;
+    }
+
+
+}

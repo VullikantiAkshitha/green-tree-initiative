@@ -1,0 +1,659 @@
+/* global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-box {
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: -25px;
+    left: 10vh;
+}
+
+.white-box {
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: -25px;
+    left: 9vh;
+}
+
+/* header section */
+header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 5% 10% 4% 10%;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar p {
+    align-self: center;
+}
+
+nav ul {
+    padding-top: 1%;
+}
+
+.btn {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    width: 80%;
+}
+
+.btn a button {
+    width: 100%;
+    padding: 2%;
+}
+
+/* banner section */
+.banner {
+    height: 100vh;
+    background-position-x: 40%;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.banner-contents {
+    padding: 10%;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banner-hashtag img {
+    height: 80%;
+}
+
+.banner-message {
+    position: relative;
+    padding: 6%;
+
+}
+
+.banner-message p {
+    padding-top: 10px;
+}
+
+/* what we do section */
+.what-we-do {
+    padding: 12% 10% 5% 10%;
+}
+
+.what-we-do-msg {
+    position: relative;
+}
+
+.what-we-do-msg p {
+    padding-top: 10%;
+}
+
+.what-we-do-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.what-we-do-contents .content {
+    width: 45%;
+    padding-top: 10%;
+}
+
+.what-we-do-contents .content img {
+    height: 50px;
+    width: 50px;
+}
+
+/* team section */
+.team {
+    padding: 10%;
+}
+
+.team-intro {
+    position: relative;
+}
+
+.team-intro .heading {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.team-intro .sub-text {
+    padding-bottom: 5%;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 5%;
+}
+
+.person img {
+    width: 100%;
+}
+
+.person-box {
+    padding: 10px 25px 10px 25px;
+    width: 100%;
+}
+
+/* our impact section */
+.our-impact {
+    background-size: cover;
+    background-position: center center;
+    padding: 10%;
+}
+
+.our-impact-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.our-impact-heading {
+    position: relative;
+    padding-top: 10%;
+}
+
+.impacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.impact {
+    margin-top: 7%;
+    width: 50%;
+}
+
+.impact .text,
+.num {
+    text-align: center;
+}
+
+.our-impact-heading .white-box {
+    left: 40%;
+}
+
+.impact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+/* lets take action section */
+.take-action {
+    padding: 5% 10%;
+}
+
+.take-action-heading {
+    padding: 5%;
+}
+
+.take-action-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-2 {
+    display: none;
+}
+
+.take-action-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.take-action-card img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.card-main-text {
+    margin: 5%;
+}
+
+.card-sub-text {
+    margin: 5%;
+}
+
+.take-action-card .readmore {
+    margin: 20px auto;
+    width: 50%;
+    padding: 3% 8% 3% 8%;
+
+}
+
+/* subscribe section */
+.subscribe {
+    padding: 10%;
+}
+
+.take-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email-input {
+    width: 65%;
+    margin-right: 5px;
+
+}
+
+.subscribe-button {
+    width: 30%;
+    padding: 2%;
+}
+
+/* footer section */
+
+.footer {
+    padding: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.footer .heading {
+    padding-right: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.contact-us {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.follow-us {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.learn-more {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+
+.contact-us .main-text {
+    margin-top: 10px;
+
+}
+
+.follow-us .main-text {
+    margin-top: 10px;
+
+}
+
+.learn-more .main-text {
+    margin-top: 10px;
+
+}
+
+.footer .logo-text {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+
+
+/* ---------------------------------------media queries for tablets ----------------------*/
+@media(min-width : 600px) {
+    /* header for tablets */
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+
+    .navbar {
+        width: 50%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn {
+        padding: 0;
+        width: 30%;
+    }
+
+    .navbar p {
+        padding-bottom: 1%;
+        align-self: start;
+    }
+
+    .navbar nav {
+        width: 100%;
+    }
+
+    .navbar nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn a button {
+        padding: 4%;
+    }
+
+    /* banner section for tablets */
+    .banner-contents {
+        padding-bottom: 5%;
+    }
+
+    /* what we do section  for tablets*/
+    .what-we-do-contents {
+        justify-content: flex-start;
+        column-gap: 5%;
+    }
+
+    .what-we-do-contents .content {
+        width: 30%;
+    }
+
+    /* team section for tablets*/
+    .team {
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+
+    .person-box {
+        position: relative;
+        bottom: 5%;
+        right: -10%;
+    }
+
+    .person {
+        padding-top: 5%;
+    }
+
+    .team-intro {
+        display: flex;
+    }
+
+    .team-intro .sub-text {
+        padding: 5%;
+    }
+
+    .team-intro .heading {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 0;
+        width: 50%;
+    }
+
+    .team-intro .sub-text {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 0;
+        width: 50%;
+    }
+
+    /* our impact for tablets */
+    .impacts {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .impact {
+        width: 50%;
+    }
+
+    /* lets take action for tablets */
+    .take-action-cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #card-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+
+    }
+
+    .take-action-card {
+        width: 45%;
+    }
+
+    /* subscribe-section for tablets */
+    .subscribe {
+        padding: 7%;
+    }
+
+    .subscribe .text {
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .contact-us {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+    }
+
+    .follow-us {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .learn-more {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
+
+    .footer .logo-text {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+
+
+}
+
+/* ---------------------------------------media queries for laptops ----------------------*/
+@media(min-width : 1200px) {
+
+    /* header section  for laptops */
+    header {
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+
+    .navbar {
+        flex-direction: row;
+        width: 65%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .navbar nav {
+        display: flex;
+        width: 50%;
+    }
+
+    nav ul {
+        height: 100%;
+    }
+
+    .btn {
+        width: 25%;
+    }
+
+    /* banner section for laptops */
+    .banner {
+        background-position-x: none;
+        background-position-y: none;
+        height: auto;
+    }
+
+    .banner-contents {
+        flex-direction: row;
+        height: auto;
+        position: relative;
+    }
+
+    .banner-message {
+        position: absolute;
+        right: 0;
+        bottom: -20%;
+        width: 600px;
+        padding: 3% 2%;
+        margin-right: 10%;
+
+    }
+
+    .banner-hashtag {
+        width: 100%;
+    }
+
+    /* what we do section  for laptops*/
+    .what-we-do-contents {
+        justify-content: space-between;
+    }
+
+    .what-we-do-msg p {
+        padding-top: 7%;
+    }
+
+    .what-we-do-contents .content {
+        width: 21%;
+    }
+
+    .person {
+        width: 30%;
+    }
+
+    /* our impact for laptops */
+    .our-impact-heading {
+        padding-top: 5%;
+    }
+
+    .impact {
+        width: 20%;
+        margin: 2%;
+
+    }
+
+    /* subscribe section for laptops */
+
+    .subscribe {
+        padding: 3%;
+    }
+
+
+    .subscribe .take-input {
+        width: 45%;
+        height: 50%;
+
+    }
+
+    .subscribe {
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe .text {
+        width: 50%;
+
+    }
+
+    .subscribe .take-input {
+        width: 45%;
+        height: 50%;
+
+    }
+
+    /* footer section for the tablets */
+    .footer {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 9%;
+        row-gap: 0;
+        padding: 4% 10%;
+    }
+
+    .footer .heading {
+        grid-row: none;
+        grid-column: 1/2;
+    }
+
+    .contact-us {
+        grid-row: none;
+        grid-column: 2/3;
+
+    }
+
+    .learn-more {
+        grid-row: none;
+        grid-column: 3/4;
+    }
+
+    .follow-us {
+        grid-row: none;
+        grid-column: 4/5;
+
+    }
+
+    .footer .logo-text {
+        grid-row: none;
+        grid-column: 5/6;
+    }
+
+
+
+
+}
